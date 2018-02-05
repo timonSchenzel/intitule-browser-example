@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "cross-env": "^5.1.3",
+        "intitule": "file:../intitule",
+        "laravel-mix": "^2.0.0"
+    }
+}
