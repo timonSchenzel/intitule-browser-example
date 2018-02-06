@@ -1,7 +1,5 @@
 let dumper = require('intitule');
 
-console.log(dumper);
-
 dumper.makeGlobal();
 
 function dumpValue(value)
